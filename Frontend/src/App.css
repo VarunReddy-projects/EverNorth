@@ -1,0 +1,127 @@
+/* General Styles */
+.app {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2A6041;
+  color: white;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links a, .login-button {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: #4CAF50;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #66BB6A;
+}
+
+/* Carousel */
+.carousel {
+  background-color: #A5D6A7;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.carousel-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2A6041;
+}
+
+.carousel-subtitle {
+  font-size: 18px;
+  color: #555;
+}
+
+.get-started-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.get-started-button:hover {
+  background-color: #66BB6A;
+}
+
+/* Benefits Section */
+.benefits, .support, .faq {
+  padding: 20px;
+  background-color: #A5D6A7;
+  margin: 20px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #2A6041;
+}
+
+/* FAQ */
+.faq summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Popup */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.popup-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.popup-close {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
